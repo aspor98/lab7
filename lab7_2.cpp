@@ -13,7 +13,8 @@ int main(){
 	cin >> k;
 
 	if(k>0){
-	i = 0, result = 0;
+	i = 0;
+	result = 0;
 	while(i < 5000){
 		if(P[i]%k==0){
 			result -= P[i];
@@ -22,7 +23,7 @@ int main(){
 		}
 		i++;
 	}
-	cout <<" Result = " <<  result;
+	cout <<"Result = " <<  result;
 	}else{
 		cout << "Invalid input!!!";
 	}
