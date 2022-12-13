@@ -34,8 +34,8 @@ string func3(string x){
 }
 
 int main(){
-    cout >> "Input text: "
-    cout >> "Reversed text: "
-    cout >> "Palindrome: "
+    cout >> "Input text: ";
+    cout >> "Reversed text: ";
+    cout >> "Palindrome: ";
     return 0;
 }
